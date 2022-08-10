@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
             InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔎', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
             InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search Here 🔎', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔎', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
