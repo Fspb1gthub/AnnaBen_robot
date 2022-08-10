@@ -8,8 +8,8 @@ class script(object):
 𝑻𝑯𝑰𝑺 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 𝑩𝑶𝑻 𝑨𝑩𝑶𝑼𝑻 𝑴𝑬𝑺𝑺𝑨𝑮𝑬  
 ═══════════════════
 ╭━━━━━━━━━━━━━━━
-┣⪼ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 -  <a href="https://t.me/Lucy_Autofilterbot"> 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 </a>
-┣⪼ 𝙱𝙾𝚃 𝚄𝚂𝙴𝚁 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Lucy_Autofilterbot"> 𝙻𝚄𝙲𝚈_𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁𝙱𝙾𝚃 </a> 
+┣⪼ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Lucy_Autofilterbot"> 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 </a>
+┣⪼ 𝙱𝙾𝚃 𝚄𝚂𝙴𝚁 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Lucy_Autofilterbot">𝙻𝚄𝙲𝚈_𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁𝙱𝙾𝚃</a> 
 ┣⪼ 𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 - <a href="https://t.me/Lucy_Autofilterbot"> 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 </a> 
 ┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/PSYCHO_009"> 𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽 </a>
 ┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - <a href="https://www.python.org/"> 𝙿𝚈𝚃𝙷𝙾𝙽3 : 3.0.13 </a>
