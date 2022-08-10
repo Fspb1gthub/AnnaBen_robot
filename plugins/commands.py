@@ -21,7 +21,7 @@ async def start(client, message):
                 InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url='http://t.me/LUCY_AUTOFILTERBOT?startgroup=true'),
             ],
             [
-                InlineKeyboardButton('🤖 𝚂𝚃𝙰𝚁𝚃 𝙼𝚈 𝙱𝙾𝚃 🤖', url='https://t.me/{temp.U_NAME}?start=help'),
+                InlineKeyboardButton('🤖 𝚂𝚃𝙰𝚁𝚃 𝙼𝚈 𝙱𝙾𝚃 🤖', url=f"https://t.me/LUCY_AUTOFILTERBOT?start=help"),
             ],
             [
                 InlineKeyboardButton('📣 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙽𝙽𝙴𝙻 📣', url=f"https://t.me/movies_channel001"),
