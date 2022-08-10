@@ -5,19 +5,18 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-𝗧𝗛𝗜𝗦 𝗔𝗡𝗡𝗔 𝗕𝗘𝗡'𝗦 𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
-✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/Dqautofl_Bot"> 𝑨𝑵𝑵𝑨 𝑩𝑬𝑵 </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎1 - <a href="https://t.me/pro_editor_tg"> Lalluᵗᵍ </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎2 - <a href="https://t.me/PANDITHAN_SIR"> ⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋM-STER </a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 -  𝙷𝙴𝚁𝙾𝙺𝚄
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
+𝑻𝑯𝑰𝑺 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 𝑩𝑶𝑻 𝑨𝑩𝑶𝑼𝑻 𝑴𝑬𝑺𝑺𝑨𝑮𝑬  
+═══════════════════
+╭━━━━━━━━━━━━━━━
+┣⪼ 𝙱𝙾𝚃 𝙽𝙰𝙼𝙴 -  <a href="https://t.me/Lucy_Autofilterbot"> 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 </a>
+┣⪼ 𝙱𝙾𝚃 𝚄𝚂𝙴𝚁 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Lucy_Autofilterbot"> 𝙻𝚄𝙲𝚈_𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁𝙱𝙾𝚃 </a> 
+┣⪼ 𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 - <a href="https://t.me/Lucy_Autofilterbot"> 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 </a> 
+┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href="https://t.me/PSYCHO_009"> 𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽 </a>
+┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - <a href="https://www.python.org/"> 𝙿𝚈𝚃𝙷𝙾𝙽3 : 3.0.13 </a>
+┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - <a href="https://github.com/pyrogram/pyrogram"> 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 : 2.0.35 </a>
+┣⪼ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 - <a href="https://cloud.mongodb.com/"> 𝙼𝙰𝙽𝙶𝙾 𝙳𝙱 </a>
+┣⪼ 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 -  <a href="https://dashboard.heroku.com/"> 𝙷𝙴𝚁𝙾𝙺𝚄 </a>
+╰━━━━━━━━━━━━━━━"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
