@@ -488,31 +488,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin'),
-            InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
-            InlineKeyboardButton('👻 𝐟𝐢𝐥𝐭𝐞𝐫𝐬 ', callback_data='auto_manual')
+            InlineKeyboardButton('🔸 𝙰𝙳𝙼𝙸𝙽 ', callback_data='admin'),
+            InlineKeyboardButton('🔸 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 ', callback_data='coct'),
+            InlineKeyboardButton('🔸  𝙵𝙸𝙻𝚃𝙴𝚁𝚂 ', callback_data='auto_manual')
             ],[
-            InlineKeyboardButton('📖 𝐠𝐭𝐫𝐚𝐧𝐬 ', callback_data='gtrans'),
-            InlineKeyboardButton('📄 𝐢𝐧𝐟𝐨 ', callback_data='info'),
-            InlineKeyboardButton('🖥️ 𝐩𝐚𝐬𝐭𝐞 ', callback_data='paste')
+            InlineKeyboardButton('🔸 𝙶 𝚃𝚁𝙰𝙽𝚂 ', callback_data='gtrans'),
+            InlineKeyboardButton('🔸 𝙸𝙽𝙵𝙾 ', callback_data='info'),
+            InlineKeyboardButton('🔸 𝙿𝙰𝚂𝚃𝙴  ', callback_data='paste')
             ],[
-            InlineKeyboardButton('💣 𝐩𝐮𝐫𝐠𝐞 ', callback_data='purge'),
-            InlineKeyboardButton('🔇 𝐫𝐞𝐬𝐭𝐫𝐢𝐜𝐭 ', callback_data='restric'),
-            InlineKeyboardButton('🔍 𝐬𝐞𝐚𝐫𝐜𝐡 ', callback_data='search')
+            InlineKeyboardButton('🔸 𝙿𝚄𝚁𝙶𝙴   ', callback_data='purge'),
+            InlineKeyboardButton('🔸 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃  ', callback_data='restric'),
+            InlineKeyboardButton('🔸 𝚂𝙴𝙰𝚁𝙲𝙷   ', callback_data='search')
             ],[
-            InlineKeyboardButton('📸 𝐭𝐠𝐫𝐚𝐩𝐡 ', callback_data='tgraph'),
-            InlineKeyboardButton('🤔 𝐰𝐡𝐨𝐢𝐬 ', callback_data='whois'),
-            InlineKeyboardButton('🤡 𝐟𝐮𝐧 ', callback_data='fun')
+            InlineKeyboardButton('🔸 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷  ', callback_data='tgraph'),
+            InlineKeyboardButton('🔸 𝚆𝙷𝙾𝙸𝚂  ', callback_data='whois'),
+            InlineKeyboardButton('🔸 𝙵𝚄𝙽  ', callback_data='fun')
             ],[
-            InlineKeyboardButton('🥱 𝐚𝐥𝐢𝐯𝐞 ', callback_data='alive'),
-            InlineKeyboardButton('🎶 𝐬𝐨𝐧𝐠 ', callback_data='song'),
-            InlineKeyboardButton('🖨️ 𝐣𝐬𝐨𝐧 ', callback_data='json')
+            InlineKeyboardButton('🔸 𝙰𝙻𝙸𝚅𝙴  ', callback_data='alive'),
+            InlineKeyboardButton('🔸 𝚂𝙾𝙽𝙶 ', callback_data='song'),
+            InlineKeyboardButton('🔸 𝙹𝚂𝙾𝙽 ', callback_data='json')
             ],[
-            InlineKeyboardButton('📎 𝐩𝐢𝐧 ', callback_data='pin'),
-            InlineKeyboardButton('🦠 𝐜𝐨𝐫𝐨𝐧𝐚 ', callback_data='corona'),
-            InlineKeyboardButton('🖨️ 𝐬𝐭𝐢𝐜𝐤𝐞𝐫𝐢𝐝 ', callback_data='stickerid')
+            InlineKeyboardButton('🔸 𝙿𝙸𝙽 ', callback_data='pin'),
+            InlineKeyboardButton('🔸 𝙲𝙾𝚁𝙾𝙽𝙰  ', callback_data='corona'),
+            InlineKeyboardButton('🔸 𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳 ', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('« Back', callback_data='start')
+            InlineKeyboardButton('« 𝙱𝙰𝙲𝙺 🔙', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("▣▢▢")
@@ -528,15 +528,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('status', callback_data='stats'),
-            InlineKeyboardButton('source', callback_data='source')
+            InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 & 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 ♻️', callback_data='help')
             ],[
-            InlineKeyboardButton('search movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🤖 𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
+            InlineKeyboardButton('🍃 𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁', callback_data='source')
             ],[
-            InlineKeyboardButton('help & commands', callback_data='help')
+            InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Close ✗', callback_data='close_data')
+            InlineKeyboardButton('« 𝙱𝙰𝙲𝙺 🔙', callback_data='start'),
+            InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴 ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("▣▢▢")
