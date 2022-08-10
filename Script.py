@@ -17,12 +17,10 @@ class script(object):
 ┣⪼ 💻 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 - <a href="https://cloud.mongodb.com/">𝙼𝙰𝙽𝙶𝙾 𝙳𝙱</a>
 ┣⪼ 💻 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 - <a href="https://dashboard.heroku.com/">𝙷𝙴𝚁𝙾𝙺𝚄</a>
 ╰━━━━━━━━━━━━━━━"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
+    SOURCE_TXT = """𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥
+━━━━━━
 
-𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="https://t.me/team_annaben"> 𝑻𝑬𝑨𝑴 𝑨𝑵𝑵𝑨 </a>"""
+<a href="https://t.me/PSYCHO_009">𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽</a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
