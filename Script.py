@@ -19,8 +19,7 @@ class script(object):
 ╰━━━━━━━━━━━━━━━"""
     SOURCE_TXT = """𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥
 ━━━━━━
-
-<a href="https://t.me/PSYCHO_009">𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽</a>"""
+<b><a href="https://t.me/PSYCHO_009">𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽</a></b>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
