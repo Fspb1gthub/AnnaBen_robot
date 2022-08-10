@@ -18,6 +18,9 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
+                InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url='http://t.me/LUCY_AUTOFILTERBOT?startgroup=true'),
+            ],
+            [
                 InlineKeyboardButton('🤖 𝚂𝚃𝙰𝚁𝚃 𝙼𝚈 𝙱𝙾𝚃 🤖', url='https://t.me/{temp.U_NAME}?start=help'),
             ],
             [
