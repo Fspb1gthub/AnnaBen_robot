@@ -164,7 +164,7 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
                 )
             ]
         ]
-    #if imdb.get('poster'):
+    if imdb.get('poster'):
         await query.message.reply_photo(photo="https://telegra.ph/file/3ce14eb033a14a45a144f.jpg", caption=f"IMDb Data:\n\n🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
         await query.message.delete()
     else:
