@@ -155,7 +155,6 @@ async def imdb_search(client, message):
 @Client.on_callback_query(filters.regex('^imdb'))
 async def imdb_callback(bot: Client, query: CallbackQuery):
     i, movie = query.data.split('#')
-    #imdb = await get_poster(query=movie, id=True)
     btn = [
             [
                 InlineKeyboardButton(
@@ -164,7 +163,6 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
                 )
             ]
         ]
-    #if imdb.get('poster'):
         await query.message.reply_photo(photo="https://telegra.ph/file/3ce14eb033a14a45a144f.jpg", caption="🏷 Title:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
         await query.message.delete()
     else:
