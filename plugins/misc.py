@@ -164,7 +164,7 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
                 )
             ]
         ]
-    if imdb.get('poster'):
+    #if imdb.get('poster'):
         await query.message.reply_text( text=f"🏷 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴:<a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 𝙶𝙴𝙽𝚁𝙴𝚂: {imdb.get('genres')}\n📆 𝚈𝙴𝙰𝚁:<a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 𝚁𝙰𝚃𝙸𝙽𝙶: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
         await query.message.delete()
     else:
