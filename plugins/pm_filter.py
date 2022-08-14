@@ -472,7 +472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ 𝙰𝙳𝙳 𝙼𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕', url='http://t.me/LUCY_AUTOFILTERBOT?startgroup=true')
             ],[
             InlineKeyboardButton('💠𝙲𝙷𝙰𝙽𝙽𝙴𝙻💠', url='https://t.me/movies_channel001'),
-            InlineKeyboardButton('💠𝙶𝚁𝙾𝚄𝙿💠', url='https://t.me/+Uw3_PvUjzQ9jMTll')
+            InlineKeyboardButton('💠𝙶𝚁𝙾𝚄𝙿💠', url='https://t.me/otm_movie_cinema_film_group2')
             ],[
             InlineKeyboardButton('♻️𝙷𝙴𝙻𝙿♻️', callback_data='help'),
             InlineKeyboardButton('♻️𝙰𝙱𝙾𝚄𝚃♻️', callback_data='about')
@@ -531,7 +531,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ 𝙷𝙴𝙻𝙿 & 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 ♻️', callback_data='help')
             ],[
             InlineKeyboardButton('🤖 𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
-            InlineKeyboardButton('🍃 𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁', callback_data='source')
+            InlineKeyboardButton('💻 𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁', callback_data='source')
             ],[
             InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 🔎', switch_inline_query_current_chat='')
             ],[
