@@ -1,40 +1,45 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚢 𝚗𝚊𝚖𝚎 , <a href='https://t.me/Dqautofl_bot'>𝐀𝐍𝐍𝐀 𝐁𝐄𝐍</a>, 𝙸𝚝'𝚜 𝚟𝚎𝚛𝚢 𝚎𝚊𝚜𝚢 𝚓𝚞𝚜𝚝 𝚊𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚗𝚍 𝚖𝚊𝚔𝚎 𝚖𝚎 𝚊𝚍𝚖𝚒𝚗, 𝚃𝚑𝚊𝚝𝚜 𝚊𝚕𝚕 𝙸'𝚕𝚕 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚖𝚘𝚟𝚒𝚎𝚜 𝚝𝚑𝚎𝚛𝚎 🤓
+    START_TXT = """𝙷𝙴𝚈 👋 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>𝑳𝑼𝑪𝑰𝑭𝑬𝑹😈</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿\n𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂❤️❤️🔥
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
     ABOUT_TXT = """
-𝗧𝗛𝗜𝗦 𝗔𝗡𝗡𝗔 𝗕𝗘𝗡'𝗦 𝗔𝗕𝗢𝗨𝗧 𝗠𝗦𝗚
-✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/Dqautofl_Bot"> 𝑨𝑵𝑵𝑨 𝑩𝑬𝑵 </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎1 - <a href="https://t.me/pro_editor_tg"> 🅛︎🅐︎🅛︎🅛︎🅤︎ᵗᵍ </a>
-║┣⪼ Ⓓ︎Ⓔ︎Ⓥ︎2 - <a href="https://t.me/PANDITHAN_SIR"> ⸙ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋM-STER </a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 -  𝙷𝙴𝚁𝙾𝙺𝚄
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
-    SOURCE_TXT = """<b>NOTE:</b>
-- 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://github.com/Lallu-lallus/AnnaBen_robot"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
-
-𝗠𝗔𝗦𝗧𝗘𝗥:
-<a href="https://t.me/team_annaben"> 𝑻𝑬𝑨𝑴 𝑨𝑵𝑵𝑨 </a>"""
+𝑻𝑯𝑰𝑺 𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿 𝑩𝑶𝑻 𝑨𝑩𝑶𝑼𝑻 𝑴𝑬𝑺𝑺𝑨𝑮𝑬  
+═══════════════════
+╭━━━━━━━━━━━━━━━
+┣⪼ 🤖 𝙽𝙰𝙼𝙴 ---------- <a href="https://t.me/Lucy_Autofilterbot">𝑳𝑼𝑪𝑰𝑭𝑬𝑹👿</a>
+┣⪼ 🤖 𝚄𝚂𝙴𝚁 𝙽𝙰𝙼𝙴 - <a href="https://t.me/Lucy_Autofilterbot">𝙻𝚄𝙲𝚈_𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁𝙱𝙾𝚃</a> 
+┣⪼ 🤖 𝚃𝚈𝙿𝙴 ---------- <a href="https://t.me/Lucy_Autofilterbot">𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁</a> 
+┣⪼ 🙋 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ---- <a href="https://t.me/PSYCHO_009">𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽</a>
+┣⪼ 💻 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 -- <a href="https://www.python.org/">𝙿𝚈𝚃𝙷𝙾𝙽3 : 3.0.13</a>
+┣⪼ 💻 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ---- <a href="https://github.com/pyrogram/pyrogram">𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 : 2.0.35</a>
+┣⪼ 💻 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 - <a href="https://cloud.mongodb.com/">𝙼𝙰𝙽𝙶𝙾 𝙳𝙱</a>
+┣⪼ 💻 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 - <a href="https://dashboard.heroku.com/">𝙷𝙴𝚁𝙾𝙺𝚄</a>
+╰━━━━━━━━━━━━━━━"""
+    SOURCE_TXT = """𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥
+━━━━━━
+<b><a href="https://t.me/PSYCHO_009">𝙰𝙽𝙴𝙴𝙱 𝚁𝙰𝙷𝙼𝙰𝙰𝙽</a></b>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
 •/whois :-give a user full details"""
+    ALIVE_TXT ="""<b>ALIVE MODULE</b>
+• /alive - check me alive or dead🤧
+Just for a rasam😂"""
+    CORONA_TXT ="""<b>Here is the help for the coron information module</b>
+➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
+
+➡️ <b>example</b> : - /covid India"""
+    STICKER_TXT ="""<b>Hey Buddy Send me a sticker and then I give U the sticker id (No Commands)</b>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
 Song Download Module, For Those Who Love Music
 
 🎈 Command
 
-- /song [Song Name] - To Download Music
+• /song or /mp3 (songname) - download song from yt servers.
+• /video or /mp4 (songname) - download video from yt servers
 
 Usage
 - working pm and groups"""
@@ -67,7 +72,8 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 𝟣. /dice - Roll The Dice 
 𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
 3. /Runs - Jokes 
-4. /Goal or /Shoot - To Make A Goal Or Shoot"""
+4. /Goal or /Shoot - To Make A Goal Or Shoot
+5. /luck or /cownd - Spin the Lucky"""
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
