@@ -1051,9 +1051,9 @@ async def auto_filter(client, msg, spoll=False):
             await message.reply_photo(caption=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
         except Exception as e:
             logger.exception(e)
-            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     else:
-        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     if spoll:
         await msg.message.delete()
         
